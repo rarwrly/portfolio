@@ -1,0 +1,141 @@
+
+ body {
+    font-family: 'Lucida Console', monospace;
+
+}
+/* Navigation Links*/
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+	color: black;
+  text-decoration: double underline;
+}
+
+	
+#wrapper{
+    width: 1300px;
+    margin: auto;
+}
+header{
+     background-color: #ffffff;
+}
+.menu {
+    margin: 13px 20px;
+	font-size: 25px;
+}
+#content{
+    margin-top: 30px;
+    overflow: auto;
+}
+/*Drop downs in header*/
+.dropbtn {
+        font-family: 'Lucida Console', monospace;
+  background-color: #ffffff;
+    margin: 13px 20px;
+	font-size: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  display: block;
+    	font-size: 18px;
+}
+
+/*.dropdown-content a:hover {background-color: #f1f1f1}*/
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+    text-decoration: double underline;
+}
+
+
+/*Gallery*/
+#gallery-page-content{
+    text-align: center;
+    width: 1100px;
+    margin: 0px auto;
+}
+.gallery{
+    display: block;
+    float: left;
+    margin: 10px; 10px;
+}
+/*Cozy Murder*/
+
+#cozy-content{
+    text-align: center;
+    width: 1100px;
+}
+
+/*Modals*/
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 60%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*fiber Code*/
+.gallerySlide{
+    display: none;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RawrlyProd</title>
+          <link rel="stylesheet" href="style.css" />
+		  <script src="cozy-murder-javascript.js"></script>
+  </head>
+	<body>
+		<div id ="wrapper">
+            <header>
+                <a id="logo" class="menu" href="index.html">
+					Main Page
+				</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Web Design Cert</button>
+                        <div class="dropdown-content" "menu">
+                            <a class="menu" href="Web-Design-I.html">Web Design I </a>
+                            <a class="menu" href="Web-Design-II.html">Web Design II</a>
+                            <a class="menu" href="Web-Design-III.html">Web Design III</a>
+                        </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">JavaScript Cert</button>
+                        <div class="dropdown-content" "menu">
+                            <a class="menu" href="404.html">PlaceHolder</a>
+                            <a class="menu" href="404.html">PlaceHolder</a>
+                            <a class="menu" href="404.html">PlaceHolder</a>
+                        </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Personal Projects</button>
+                        <div class="dropdown-content" "menu">
+                            <a class="menu" href="Cozy-Murder.html">Cozy Murder Generator</a>
+                            <a class="menu" href="404.html">PlaceHolder</a>
+                            <a class="menu" href="404.html">PlaceHolder</a>
+                        </div>
+                </div>
+                <a class="menu" href="Fiber-Code.html">Fiber Code</a>
+            </header>
+			<div  id= "content">
+				<h1>Personal Project: Cozy Murder Generator</h1>
+				This is a small project to build a random murder generator based off the murders that have occured in English Cozy Mysteries (<a href="https://en.wikipedia.org/wiki/Cozy_mystery">https://en.wikipedia.org/wiki/Cozy_mystery</a>). It is based off of a random quotes generator that employs javascript.
+				<h2>Project Files:</h2>
+				<a href="/files/CozyMurder.zip" >CozyMurder.zip</a>
+				<div id="cozy-content">
+				<h2>How will you die in an English cozy?</h2>
+					<h3>Your Murder</h3>
+					<div id="murderDisplay">
+					</div>
+					<h3>Weapon of Choice</h3>
+					<div id="weaponDisplay">
+					</div>
+					<h3>Location</h3>
+					<div id="murderlocationDisplay">
+					</div>
+					</br>
+					<button onclick="newMurder()">Next Murder</button>
+				</div>
+<!-- Modal Section-->
+            <div id="clickModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                <p><div id="modalText"></div></p>
+            </div>
+                </div>
+			</div>
+	</body>
+</html>
